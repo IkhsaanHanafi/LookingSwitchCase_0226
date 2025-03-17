@@ -12,14 +12,14 @@ int main(){
     //Loop with for
     //Loop for ascending
     for(counter = 0; counter < 5; counter++){
-        cout << "Nilai counter = " << counter << " TI UMY" << end1;
+        cout << "Nilai counter = " << counter << "TI UMY" << end1;
     }
     cout << "Nilai counter terakhir = " << counter << end1;
     cout << end1;
 
     //Loop for descending
     for(counter = 5; counter > 0; counter--){
-        cout << "Nilai counter = " << counter << " TI UMY" << end1;
+        cout << "Nilai counter = " << counter << "TI UMY" << end1;
     }
     cout << "Nilai counter terakhir = " << counter << end1;
     cout << end1;
@@ -41,5 +41,13 @@ int main(){
     cout << end1;
 
      //Loop do while
-     cout << "Perulangan Do "
+     cout << "Perulangan Do While"<< end1;
+     do
+     {
+        cout << "Nilai i = " << i << " TI UMY" << end1;
+        i = rand() % 10;
+        perulanganDo++;
+     } while (i < 7);
+     cout << "Jumlah Perulangan = " << perulanganDo << end1;
+     cout << "Nilai akhir i = " << i << end1;
 }
